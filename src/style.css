@@ -1,1 +1,37 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+#card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  height: 500px; /* adjust height as needed */
+  width: 300px; /* adjust width as needed */
+  margin: auto;
+  box-shadow: 0px 0px 10px 4px lightslategray;
+}
+
+#header {
+  align-items: left;
+  font-size: 60px;
+}
+#symbol {
+  text-align: center;
+  font-size: 150px;
+}
+#footer {
+  align-self: flex-end;
+  justify-content: flex-end;
+  transform: rotate(180deg);
+  font-size: 60px;
+}
+.btn {
+  background-color: lightblue;
+  border: solid black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
